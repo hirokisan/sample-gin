@@ -24,6 +24,9 @@
 #   go-tests = true
 #   unused-packages = true
 
+[metadata.heroku]
+  root-package = "sample-gin"
+  go-version = "1.11.0"
 
 [prune]
   go-tests = true
